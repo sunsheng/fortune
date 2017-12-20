@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*首页*/
+/*flexslider开始*/
+.flexslider{position:relative;height:420px;overflow:hidden;background:url(../images/dot.png) 50% no-repeat;}
+.slides{position:relative;z-index:7;}
+.slides li{height:420px; text-align:center;}
+.slides li a img{width:1920px;position:absolute;left:50%;margin-left:-960px;}
+.flex-control-nav{position:absolute;bottom:10px;z-index:7;width:100%;text-align:center;}
+.flex-control-nav li{display:inline-block;width:14px;height:14px;margin:0 5px;*display:inline;zoom:1;}
+.flex-control-nav a{display:inline-block;width:14px;height:14px;line-height:42px;overflow:hidden;background:url(../images/dot.png) right 0 no-repeat;cursor:pointer;}
+.flex-control-nav .flex-active{background-position:0 0;}
+.flex-direction-nav{position:absolute;z-index:3;width:100%;top:45%;}
+.flex-direction-nav li a{display:block;width:50px;height:50px;overflow:hidden;cursor:pointer;position:absolute;}
+
+.section{width:1200px;margin:35px auto;}
+.section .zx{float:left;width:580px;margin-right:40px;}
+.zx_top{width:100%;height:30px;position:relative;}
+.zx_top a{position:absolute;right:0;top:0;}
+.zxmain{width:100%;padding-top:20px;}
+.zxmain_top img{float:left;}
+.zxmain_top .zxmain_right{float:right;width:330px;word-wrap:break-word;}
+.zxmain_top .zxmain_right a{display:block;position:relative;}
+.zxmain_top .zxmain_right h3{font-size:16px;color:#333;}
+.zxmain_top .zxmain_right a em{display:block;width:100%;text-align:right;position:absolute;bottom:-24px;font-size:12px;color:#999;font-weight:normal;}
+.zxmain_top .zxmain_right p{font-size:14px;color:#999;line-height:20px;margin-top:20px;}
+.zx_main{margin-top:25px;}
+.zx_main ul li a{display:block;margin-top:15px;}
+.zx_main ul li a i{display:block;float:left;width:7px;height:9px;background:url(../images/arr.png) no-repeat;margin-top:6px;margin-right:10px;}
+.zx_main ul li a p{float:left;font-size:16px;color:#505050;border-bottom:1px solid #fff}
+.zx_main ul li a em{float:right;font-size:14px;color:#999;}
+.section .fx{width:580px;float:left;}
+.fxmain{padding-top:20px;}
+.fxmain p{font-size:14px;color:#999;width:100%;word-wrap:break-word;margin:10px 0;line-height:20px;}
+.fxmain a{display:block;width:565px;height:40px;line-height:40px;background-color:#eee;text-align:right;font-size:16px;color:#999;padding-right:15px;}
+/*走进蜂向*/
+.aboutsec{width:100%;height:1500px;background:url(../images/aboutbg.jpg) center 0 no-repeat;padding-top:70px;}
+.about_banner,.attitude_banner,.news_banner,.join_banner,.product_banner,.ebank_banner,.contact_banner{width:100%;height:230px;background:url(../images/att_banner.jpg) center 0 no-repeat;}
+.about_banner{background:url(../images/ab_banner.jpg) center 0 no-repeat;}
+.about{width:1000px;margin:0 auto 23px;}
+.about .abouttit h1{font-size:38px;color:#333;line-height:36px;margin:0 41px;float:left;}
+.about .whytit{margin:60px 0 40px;}
+.about .partnertit{margin:70px 0 40px;}
+.about .partnertit h1{margin:0 38px;}
+.about .abouttit i{display:inline-block;width:382px;height:1px;background:#e8aa5b;float:left;margin-top:20px;}
+.about .whytit i{width:345px;}
+.smalltit{width:100%;text-align:center;font-size:14px;color:#999;margin:10px 0 25px;}
+.partnersmalltit{font-size:18px;color:#cb8b1c;font-weight:600;}
+.line{width:100%;height:auto;border-bottom:1px solid #b6b4b3;margin:30px 0 30px;}
+.partnersmalltit em{font-size:14px;color:#777;}
+.yh h1{margin-bottom:0;}
+.about_main,.aboutmain img{float:left;}
+.about_main{width:650px;word-wrap:break-word;}
+.about_main h3{font-size:20px;color:#cb8b1c;margin-bottom:20px;}
+.about_main h3 em{font-size:12px;color:#999;}
+.about_main p{font-size:16px;color:#666;line-height:27px;margin-bottom:20px;}
+.aboutmain img{margin:60px 0 0 40px;}
+.whymain p{font-size:18px;color:#666666;line-height:36px;text-align:center;font-weight:500;}
+.storie{font-size:14px;color:#666;margin-top:25px;}
+.partner{margin-bottom:0;}
+.partner h1{margin-bottom:20px;}
+.partner ul li{width:100%;height:70px;}
+.partner ul li.last{border:0;}
+.partner ul li span{display:block;float:left;width:228px;height:53px;border:1px solid #bbb;background:url(../images/logoicon.png) no-repeat;margin:0 25px 20px 0;}
+.partner ul li span.last{margin-right:0;}
+.partner ul li span.icon1{background-position:55px -6px;}
+.partner ul li span.icon2{background-position:35px -78px;}
+.partner ul li span.icon3{background-position:45px -147px;}
+.partner ul li span.icon4{background-position:35px -216px;}
+.partner ul li span.icon5{background-position:33px -290px;}
+.partner ul li span.icon6{background-position:37px -358px;}
+.partner ul li span.icon7{background-position:33px -428px;}
+.partner ul li span.icon8{background-position:50px -498px;}
+.partner ul li span.icon9{background-position:28px -568px;}
+.partner ul li span.icon10{background-position:35px -639px;}
+.partner ul li span.icon11{background-position:30px -710px;}
+.partner ul li span.icon12{background-position:25px -779px;}
+.partner ul li span.icon13{background-position:28px -848px;}
+.partner ul li span.icon14{background-position:25px -918px;}
+.partner ul li span.icon15{background-position:30px -988px;}
+.partner ul li span.icon16{background-position:27px -1058px;}
+.partner ul li span.icon17{background-position:33px -1130px;}
+.partner ul li span.icon18{background-position:38px -1200px;}
+.partner ul li span.icon19{background-position:45px -1270px;}
+.partner ul li span.icon20{background-position:46px -1338px;}
+.partner ul li span.icon21{background-position:40px -1404px;}
+
+/*蜂向资讯*/
+.news_banner{background:url(../images/news_banner.jpg) center 0 no-repeat;}
+.newsmain{width:1000px;margin:35px auto;}
+.news_top{width:136px;text-align:center;margin:0 auto;}
+.news_top h3{font-size:34px;color:#333;height:50px;line-height:50px;}
+.new_main{width:100%;padding:40px 19px;}
+.new_right{margin-left:260px;}
+.new_right .news1{width:675px;word-wrap:break-word;position:relative;padding:10px 0 60px 24px;border-left:1px solid #be8546;}
+.new_right .news1 .newimg{position:absolute;left:-265px;top:55px;display:block;height:133px;padding:3px;border:1px solid #ccc;}
+.new_right .news1 .arr{position:absolute;left:-9px;top:14px;}
+.new_right .news1 h1{font-size:24px;color:#be8546;}
+.new_right .news1 h3{font-size:20px;color:#333;margin:10px 0;}
+.new_right .news1 p{font-size:14px;color:#666;line-height:24px;}
+.new_left .news_last,.new_right .news_last{margin-bottom:0;}
+.newsmain .more{width:100%;height:40px;background-color:#eee;text-align:center;line-height:46px;}
+.newsmain .more a{display:block;}
+
+/*蜂向资讯详情*/
+.detail h1{width:100%;text-align:center;font-size:30px;color:#be8546;margin:50px 0 10px 0;}
+.detail h5{font-size:14px;color:#999;width:100%;text-align:center;position:relative;margin-bottom:20px;}
+.detail h5 a{position:absolute;right:0;}
+.detail h5 a.return{right:100px;}
+.detail p{font-size:14px;color:#666;line-height:24px;}
+.detail .detail_banner{width:1095px;margin:20px auto;}
+.detail h4{color:#000;font-size:16px;}
+
+/*人才战略*/
+.join_banner{background:url(../images/join_banner.jpg) center 0 no-repeat;}
+.join_section{width:1000px;margin:0 auto 30px;}
+.join_section h1{width:138px;height:50px;text-align:center;line-height:50px;margin:34px auto 25px;font-size:34px;}
+.join_section h3{width:100%;height:50px;line-height:50px;font-size:24px;color:#333;border-bottom:1px solid #dbdbdb;position:relative;}
+.join_section h3 em{position:absolute;font-size:18px;color:#dedede;right:0;}
+.join_section .zl{padding:20px 0;}
+.join_section .zl p{font-size:14px;color:#666;text-align:left;line-height:24px;}
+.email{width:370px;margin:20px auto;}
+.email img{float:left;margin-right:5px;}
+.email p{font-size:18px;color:#333;}
+.zp_top,.zp_main{width:100%;min-height:40px;line-height:40px;background-color:#aaa;}
+.zp_main{background:none;min-height:40px;height:auto;border-bottom:1px solid #dbdbdb;}
+.zp_top span,.zp_main span{display:inline-block;width:245px;text-align:center;font-weight:bold;color:#666;}
+.zp_top span{color:#fff;}
+.zp_main h5 span{font-size:16px;font-weight:normal;}
+.zp_main h5 span.align{text-align:left;padding-left:30px;width:215px;}
+.zp_main span.blue a{color:#196fb9;cursor:pointer;}
+.zp_main span img{position:relative;top:3px;margin-left:5px;}
+.zp_detail{width:820px;margin:0 auto;padding-bottom:20px;display:none;}
+.zp_detail h3{font-size:16px;color:#333;margin-top:20px;border:0;font-weight:bold;}
+.zp_detail p{font-size:14px;color:#666;line-height:24px;}
+
+/*金融业务布局*/
+.businesslayout{width:100%;height:2250px;background:url(../images/jrbg.jpg) center 0 no-repeat;}
+.technology{width:1100px;height:700px;margin:0 auto;position:relative;}
+.techtit{width:520px;height:120px;background:url(../images/technologytit.png) no-repeat;position:absolute;right:-30px;top:-30px;}
+.technology p,.transactions p,.finance p{font-size:18px;color:#666;width:610px;word-wrap:break-word;position:absolute;bottom:0;left:107px;line-height:30px;opacity:0;}
+.techmain{opacity:0;width:728px;height:317px;background:url(../images/techmain.png) no-repeat;position:absolute;right:170px;bottom:0;}
+.transactions{width:1100px;height:723px;margin:0 auto;position:relative;}
+.trantit{width:520px;height:120px;background:url(../images/transactiontit.png) no-repeat;position:absolute;left:0;top:0;}
+.transactions p{left:400px;}
+.transmain{opacity:0;width:731px;height:436px;background:url(../images/transmain.png) no-repeat;position:absolute;bottom:-100px;left:45px;}
+.financetit{background:url(../images/financetit.png) no-repeat;top:0;}
+.finance{height:830px;position:relative;}
+.financemain{opacity:0;position:absolute;bottom:-100px;width:540px;height:436px;right:307px;background:url(../images/finamain.png) no-repeat;}
+
+/*供应链金融服务*/
+.ebank_banner{width:100%;height:230px;overflow:hidden;background:url(../images/ebank_banner.jpg) center 0 no-repeat;}
+.bannermain{width:1200px;height:100%;margin:0 auto;position:relative;}
+.bannermain .a-fadeinT{position:absolute;top:55px;left:114px;}
+.bannermain .a-fadeinT h3{font-size:36px;color:#fff;margin-bottom:15px;}
+.bannermain .a-fadeinT p{font-size:18px;color:#2598af;line-height:30px;}
+.ebankmain{width:1100px;margin:0 auto;}
+.ebankmain h3{font-size:32px;color:#333;text-align:center;margin-bottom:25px;}
+.frendsmain h3{margin-top:40px;}
+.ebankmain p{font-size:18px;color:#333;text-align:center;line-height:30px;}
+.ebanksec{width:100%;height:450px;background:url(../images/frendsbg.jpg) center 0 no-repeat;padding-top:40px;}
+.case{width:1021px;margin:42px auto 0;}
+.case ul li{float:left;width:238px;height:74px;background:url(../images/alicon.png) no-repeat;margin-right:23px;}
+.case ul li.last{margin-right:0;}
+.case ul li.alicon1{background-position:0 0;}
+.case ul li.alicon2{background-position:0 -75px;}
+.case ul li.alicon3{background-position:0 -150px;}
+.case ul li.alicon4{background-position:0 -225px;}
+.cooperativebank{width:1018px;margin:48px auto 0;}
+.cooperativebank ul li{width:165px;height:40px;float:left;background:url(../images/logoicon.png) no-repeat;margin-right:69px;}
+.cooperativebank ul li.last{margin-right:0;}
+.cooperativebank ul li.bankicon1{width:105px;background-position:0 -15px;}
+.cooperativebank ul li.bankicon2{width:140px;background-position:0 -85px;}
+.cooperativebank ul li.bankicon3{background-position:0 -297px;}
+.cooperativebank ul li.bankicon4{background-position:0 -576px;}
+.cooperativebank ul li.bankicon5{background-position:0 -225px;}
+
+/*联系我们*/
+.contactbanner{width:100%;height:600px;background:url(../images/map.jpg) center 0 no-repeat;}
+.contact{width:100%;height:790px;background:url(../images/contactbg.jpg) center 0 no-repeat;}
+.contactsec{width:1200px;margin:0 auto;}
+.contactmain{width:890px;margin:0 auto;}
+.contactmain i{display:block;width:123px;height:123px;float:left;background:url(../images/addressicon.png) no-repeat;margin:195px 195px 0 0;}
+.address{float:left;padding:50px 0;}
+.hotlinemain{padding:5px 0 0 0;}
+.address h3{font-size:20px;color:#666;margin-bottom:3px;}
+.address p{font-size:14px;color:#666;line-height:26px;width:558px;word-wrap:break-word;}
+.conmain i{background:url(../images/hotlineicon.png) no-repeat;margin-top:30px;}
+
+/*2016/12/27缩小版型*/
+.newsmain{width:900px;}
+.detail p{line-height: 26px;margin:20px 0;}
+.detail_banner img{width:100%;}

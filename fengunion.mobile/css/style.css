@@ -1,0 +1,262 @@
+/*index*/
+
+.panel{background:#ededed;padding-top:51px}
+.panel header{background:#fff;height:50px;line-height: 50px;position:fixed;z-index:10;top:0;width:100%;border-bottom:1px solid #ebebeb}
+.panel header .logo{display:inline-block;width:18.6%;margin-left:10px;}
+.panel header .menuBtn{display:inline-block;width:6.1%;float:right;margin:17px 15px 0 0;}
+.flexslider img{width:100%;}
+.intoBee{padding:11px;background:#fff;margin-top:5px;}
+.intoBee img{width:100%}
+.intoBee h3{font-size:19px;color:#d83611;margin-top:16px;}
+.intoBee p{font-size:14px;color:#757575;margin-top:10px;line-height: 18px}
+.indexList{background:#fff;margin-top:6px;}
+.indexList .tit{height:48px;line-height: 48px;font-size:13px;color:#303030;border-bottom: 1px solid #ebebeb;padding:0 3.2% 0 4.7%;}
+.indexList .icon img{width:14px;margin:-2px 3px 0 2px}
+.indexList li{padding:29px 3.2% 32px 4.7%;width:92%;border-bottom: 1px solid #ebebeb}
+.indexList li.last{border-bottom:none;}
+.indexList li img{float:left;width:31.7%;}
+.indexlistCont{float:left;width:54.3%;margin-left:18px;}
+.indexlistCont .conTit{line-height: 19px;font-size:14px;color:#595959;margin-top:3px;overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;}
+.indexlistCont .time{margin-top:10px;color:#a8a8a8;}
+.copy{padding:18px 0;font-size:12px;color:#3f3f3f;background:#fff;text-align: center;border-top:1px solid #ebebeb;}
+/*首页menu*/
+#menu{width:100%;background:#fff;display:none;}
+#menu .list li.first a{display:inline-block;width:80%;}
+#menu .list li{border-bottom: 1px solid #e7e7e7;}
+#menu .list li a{display:block;font-size:16px;color:#000000;padding-left:2.6%;line-height:54px;}
+#menu .list li.current a{color:#d20101;}
+#menu .list li img{width:9px;float:right;margin:18px 20px 0 0;}
+#menu .list li.first img{width:23px;margin:16px;}
+/*走进蜂向*/
+.intoBeeTit{font-size:15px;color:#ededed;background:#000000;text-align: center;height:40px;line-height: 40px;position:relative}
+.intoBeeTit img{top:12px;left:14px;width:10px;position:absolute;}
+.intoBeeImg{width:100%;}
+.fengText{padding:0 8px;background:#fbfbfb;}
+.fengText .textWrap{background:#eee;text-align: center;padding-bottom: 10px}
+.fengText .textWrap h3{line-height: 53px;color:#010101;font-size:17px;}
+.fengText .textWrap p{line-height: 24px;font-size:13px;color:#545454;}
+.partners{background:#fbfbfb;padding-bottom:21px;}
+.partners .tit{font-size:17px;color:#010101;text-align: center;line-height:52px;}
+.partners .partnersImg img{width:100%;}
+/*金融业务布局*/
+.financialImg{margin:15px 5px 0}
+.financialImg img{width:100%;margin-bottom:18px}
+.financialImg1{position:relative;}
+.financialImg1 p{position: absolute;font-size:14px;color:#545454;top:54px;left:14px;text-indent: 28px}
+
+/*供应链金融服务*/
+.fengChain{padding:8px;position:relative;height:227px;}
+.chainImg4 .cont{font-size:13px;color:#545454;text-indent: 26px;line-height:24px;margin:0 17px;text-align: left}
+.fengChain .bg{width:95.4%;position: absolute;z-index:-1}
+.fengChain .tit{color:#010101;font-size:17px;text-align: center;line-height: 58px}
+.fengChain .cont{font-size:13px;color:#545454;text-indent: 26px;line-height:24px;margin:0 17px}
+.chainImg{padding:0 7px;margin-top:12px;position: relative;height:auto;}
+.chainImg .top{position: absolute;top:8px;left:16px;font-size:12px;color:#fff;}
+.chainImg img{width:100%;}
+.chainImg1 .cont{position:absolute;top:50px;width:169px;}
+.chainImgSub{position: absolute;z-index:2;top:46px}
+.chainImg .one{width:29%;margin-top:28px;margin-left:29px;}
+.chainImg .two{width:13.3%;margin-left:6.7%;margin-top:22px;}
+.chainImg .three{width:27.4%;float:right;margin-top:14px;margin-right:27px;}
+.chainText{margin-top:10px}
+.chainImg2 .cont{right:10px;width:51%;position:absolute;top:50px;margin:0}
+.chainImg3{background:url(../images/imgBg.png) center top no-repeat;background-size:97%;height:auto;margin-top:13px;}
+.chainImg3 .top{font-size:12px;color:#fff;margin-left:8px;}
+.chainImg3 .cont{margin:25px 12px 12px}
+.chainImg3 img{width:100%;margin-bottom:10px}
+.imgBox{text-align: center}
+.chainImg3 .img17{width:60.8%;}
+.chainImg4{background:url(../images/whiteBg.jpg) center top no-repeat;background-size:96.5%;text-align: center;margin-top:13px;}
+.chainImg4 .tit{line-height: 62px;color:#010101;font-size:17px;}
+.chainImg4 img{width:92.8%}
+/* 蜂向资讯*/
+.fengChainInfor{width:100%;}
+.showMorehandle{width:100%;height:50px;background:#fff;text-align:center;line-height:50px;}
+.showMorehandle a{font-size:14px;color:#333;}
+.showMorehandle a img{width:5%;position:relative;top:-2%;margin-right:6px;}
+/*联系我们*/
+.contUs .icon img{width:21px;margin:-3px 3px 0 2px}
+.contUs{padding:0 8px}
+.contUs .tit{color:#030303}
+.contUs li{width:98%;background:#f3f3f3;margin-bottom:9px;line-height: 25px;padding:0;padding-left:6px;font-size:14px;color:#545454;border-bottom:none}
+.contUs li.last{margin-bottom:0}
+.qrWrap{width:81%;height:134px;border:1px solid #afafaf;margin:0 auto;background:#fff;}
+.qrWrap .Left,.qrWrap .Right{width:50%;float:left;}
+.qrWrap .Right p{width:91px;margin:48px auto;font-size:13px;color:#000}
+.qr{width:76.3%;}
+.qrBg{background:#fff;padding:37px 0 33px}
+.qr{margin:10px}
+.R{float:right;margin-top:57px}
+.contactPhone{background:url(../images/contantBg.png) top center no-repeat;background-size:95.7%;font-size:13px;color:#545454;padding:7px 19px 36px;margin-top:15px;}
+.contactPhone .cont{margin-top:25px;line-height:18px;}
+.contactPhone p{color:#545454;}
+
+/*人才战略*/
+.talent .titTop{padding:26px 0 0 19px;margin-bottom:15px}
+.talent .titTop p{font-size:15px;color:#000;}
+.talent .titTop i{font-size:14px;color:#9a9a9a;line-height:22px;}
+.recruitment .titTop img{width:5.3%;margin: -2px 7px 0 14px;}
+.recruitment .titTop{line-height:42px;color:#545454;font-size:12px;}
+.talentList li .TLeft{float:left;color:#545454;}
+.talentList li .TRight{float:right;}
+.talentList li a{display:inline-block;width:100%;}
+.talentList li .TRight img{width:10px;margin-top:35px;}
+.talentList{padding:0 11px 20px;}
+.talentList li{border:1px solid #afafaf;border-radius: 12px;line-height: 30px;padding:12px 12px 4px;font-size:12px;margin-top:12px;}
+.talent .text{background:#fff;}
+/*招聘详情*/
+.recruitList{padding:0 15px 20px;background:#fff;}
+.recruitList .titTop{line-height: 58px;font-size:15px;color:#000;border-bottom: 1px solid #d6d6d6}
+.recruitList .titBox,.recruitList .titList{display:inline-block;width:6px;height:24px;border:1px solid #000;float:left;}
+.recruitList .tit{padding:20px 0;font-size:14px;color:#010101}
+.recruitList .titList{width:auto;border-left:0;padding:0 10px;line-height: 24px}
+.recruitList li p{line-height:24px;font-size:14px;color:#545454;}
+/*资讯详情*/
+body {width: 100%;height: 100%;}
+.slideout-menu {position: fixed;right: 0;top: 0;bottom:0;z-index: 0;width: 256px;overflow-y: auto;-webkit-overflow-scrolling: touch;display: none;}
+.slideout-panel {position:relative;z-index: 1;  }
+.slideout-open, .slideout-open body, .slideout-open .slideout-panel {overflow: hidden;}
+.slideout-open .slideout-menu {display: block;}
+.text{background:#fbfbfb;padding:1px 20px 1px 14px}
+.text p{text-indent: 28px;line-height: 24px;margin:12px 0;font-size: 14px;color:#545454;}
+.text .title p{color:#000;font-size:15px;margin-bottom:0;margin-top:23px;text-align: left;text-indent: 0}
+.text .title{border-bottom:1px solid #c2c2c2;margin-bottom: 18px;}
+.text .title .time{font-size:12px;color:#989898;line-height:42px;}
+#content img{width:83.3%;margin-bottom:4px;margin-left:-26px;}
+.minHeight{min-height:354px }
+.minHeight366{min-height:366px }
+.minHeightWrap{min-height:478px}
+.text h4{color:#000;font-size:14px;}
+/*适配小于320px*/
+@media screen and (max-device-width: 320px) {
+    /*首页*/
+    .intoBee h3{font-size:17px;}
+    .intoBee p{font-size:12px;}
+    .panel header{height:48px;line-height: 48px}
+    .copy{font-size:10px}
+    .indexList li{padding:22px 3.2% 22px 4.7%;}
+    #menu .list li a{font-size:14px;line-height:52px;}
+    #menu .list li.first img{width:21px;}
+    .panel{padding-top:49px}
+    /*.swiper-container{margin-top:48px}*/
+    /*.intoBeeImg{margin-top:48px}*/
+    /*走进蜂向*/
+    .intoBeeTit{font-size:13px;height:38px;line-height: 38px}
+    .intoBeeTit img{width:8px;}
+    .text p{font-size:12px;line-height:22px;text-indent:24px;margin:12px 0}
+    .fengText .textWrap h3{font-size:15px;line-height:50px}
+    .fengText .textWrap p{font-size:11px;line-height:22px}
+    .partners .tit{font-size:15px;line-height:50px}
+    /*金融业务布局*/
+    .financialImg1 p{font-size:12px}
+    /*供应链金融服务*/
+    .chainImg4 .tit{font-size:15px;line-height: 40px}
+    .chainImg4 .cont{font-size:10px;line-height:22px;}
+    .chainImg .top{font-size:11px;}
+    .fengChain .cont{font-size:11px;line-height:20px;}
+    .fengChain .tit{font-size:15px;line-height:50px;}
+    /*.chainText{margin-top:40px}*/
+    .chainImg3 .top{font-size:10px;}
+    .chainImg3 .cont{margin:20px 12px 12px}
+    .chainImg4{background-size:96.5% 100%}
+    .chainImg1 .cont{top:40px;line-height:21px;width:155px}
+    .chainImg .one{width:26%;}
+    .chainImg .two{width:10.3%;margin-left:7.7%;}
+    .chainImg .three{width:24.4%;margin-top:7px;}
+    .chainImg2 .cont{top:30px}
+    .fengChain{padding-top:6px}
+    .chainImg .top{top:12px}
+    .copy{padding:15px 0}
+    /*联系我们*/
+    .contUs .tit{font-size:12px;}
+    .contUs li{font-size:12px;line-height:20px;padding:8px 3.2% 8px 4.7%}
+    .qrWrap .Right p{font-size:12px;width:106px}
+    .qrWrap{height:120px;}
+    .contactPhone{font-size:12px;}
+    .qr{margin:8px}
+    .R{margin-top:45px;}
+    .qrWrap .Right p{margin:42px auto}
+    .contactPhone{background-size:94.7% 95%;}
+    .contactPhone .cont{margin-top:20px;}
+    /*人才招聘*/
+    .talent .titTop p{font-size:13px;}
+    .talent .titTop i{font-size:12px;}
+    .recruitment .titTop{font-size:12px;}
+    .talentList li{font-size:12px;}
+    .talentList li .TRight img{width:10px;}
+    .talentList li{margin-top:10px;line-height:26px;padding:12px 12px 4px}
+    /*招聘详情*/
+    .recruitList .titTop{line-height: 50px;font-size:13px}
+    .recruitList .tit,.recruitList li p{font-size:12px;}
+    .recruitList .tit{padding:15px 0}
+    /*资讯详情*/
+    .text .title p{font-size:13px;margin-top:16px;}
+    .text .title .time{font-size:12px;line-height:34px;}
+    .text{padding-right:18px;}
+    .minHeightWrap{min-height:390px}
+    .text h4{font-size:13px;}
+}
+/*适配376-414px之间*/
+@media screen and (min-width:376px) and (max-device-width: 414px) {
+    /*首页*/
+    .intoBee h3{font-size:21px;}
+    .intoBee p{font-size:14px;}
+    .panel header{height:52px;line-height: 52px}
+    .indexList .tit{font-size:15px;}
+    .copy{font-size:14px;}
+    #menu .list li a{font-size:18px;line-height:56px;}
+    .panel{padding-top:53px}
+    /*.swiper-container{margin-top:52px}*/
+    /*.intoBeeImg{margin-top:52px}*/
+    /*走进蜂向*/
+    .intoBeeTit{font-size:17px;height:42px;line-height: 42px}
+    .intoBeeTit img{width:12px;}
+    .text p{font-size:16px;line-height:26px;text-indent:32px;margin:12px 0}
+    .fengText .textWrap h3{font-size:19px;line-height:55px}
+    .fengText .textWrap p{font-size:15px;line-height:26px}
+    .partners .tit{font-size:19px;line-height:54px}
+    /*金融业务布局*/
+    .financialImg1 p{font-size:16px}
+    /*供应链金融服务*/
+    .chainImg4 .tit{font-size:19px;}
+    .chainImg4 .cont{font-size:15px;line-height:26px}
+    .chainImg .top{font-size:13px;}
+    .fengChain .cont{font-size:15px;}
+    .fengChain .tit{font-size:19px;}
+    .chainText{margin-top:44px}
+    .chainImg3 .top{font-size:14px;}
+    /*联系我们*/
+    .contUs li{font-size:16px;}
+    .qrWrap .Right p{font-size:15px;width:106px}
+    .qrWrap{height:148px;}
+    .contactPhone{font-size:15px;}
+    /*人才招聘*/
+    .talent .titTop p{font-size:17px;}
+    .talent .titTop i{font-size:16px;}
+    .recruitment .titTop{font-size:14px;}
+    .talentList li{font-size:14px;}
+    .talentList li .TRight img{width:12px;}
+    .talentList li{margin-top:14px;}
+    /*招聘详情*/
+    .recruitList .titTop{font-size:17px}
+    .recruitList .titList, .recruitList li p{line-height: 26px}
+    .recruitList .tit, .recruitList li p{font-size:16px;}
+	/*资讯*/
+	.showMorehandle a{font-size:16px;}
+	.showMorehandle a img{top:-4%;}
+    /*资讯详情*/
+    .text .title p{font-size:17px;}
+    .text .title .time{font-size:14px;}
+    .minHeightWrap{min-height:544px}
+    .minHeight{min-height:438px }
+    .minHeight426{min-height:426px }
+    .text h4{font-size:17px;}
+}
+@media screen and (min-width:414px) {
+	/*资讯*/
+	.showMorehandle a img{top:-6%;}
+	}

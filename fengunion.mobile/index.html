@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.fengunion.com/fengunion.mobile/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Dec 2017 03:02:29 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" name="viewport"/>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/swiper-3.4.1.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <script src="js/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="js/sessionStorage.js"></script>
+	<script type="text/javascript" src="js/fx.common.js"></script>
+	<script type="text/javascript" src="js/config.js"></script>
+	<script type="text/javascript" src="js/banner/indexBanner.js"></script> 
+	<script src="js/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="js/layer/layer.js"></script>
+	<script>
+			//判断是否是pc登录
+			function IsPC() {
+				var userAgentInfo = navigator.userAgent;
+				var Agents = ["Android", "iPhone","Windows Phone"];
+				var flag = true;
+				for (var v = 0; v < Agents.length; v++) {
+					if (userAgentInfo.indexOf(Agents[v]) > 0) {
+						flag = false;
+						break;
+					}
+				}
+				return flag;
+			}
+			
+			$(function(){
+				var flag  = IsPC();
+				if(flag){
+					window.location.href = "../index-2.html";
+				}
+			})
+	
+	</script>
+    <script src="js/slideout.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <style>
+        .flexslider { width: 100%;}
+        .flexslider .slides li img{width:100%;}
+        .flex-control-paging li a{background:#fff;border-radius: 50%;}
+        .flex-control-paging li a.flex-active{background: #e0930e;border-radius: 50%;}
+        .flex-control-nav{bottom:6px;z-index: 5}
+        .flex-control-paging li a{width:8px;height:8px;}
+        .flexslider{border:none;margin:0}
+        .flex-control-nav li{margin:0 4px;}
+    </style>
+    <script src="js/swiper-3.4.1.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script>
+        $(function(){
+
+			/*banner图*/
+			$('.flexslider').flexslider({
+					slideshowSpeed: 3000,           //Integer: Set the speed of the slideshow cycling, in milliseconds
+					animationSpeed: 1000,
+					direction: "horizontal",
+					animation: "slide",
+					animationLoop: true,
+					pauseOnHover: true,
+					directionNav: false
+				});
+			})
+
+    </script>
+
+</head>
+<body>
+    <nav id="menu">
+        <ul class="list">
+            <li class="current first"><a href="index.html">首页 </a><img class="closeBtn" src="images/clocse.jpg" alt=""></li>
+            <li> <a href="intoBee.html">走进蜂向<img src="images/arrowR.jpg" alt=""></a></li>
+            <li> <a href="BeesInformation.html">蜂向资讯<img src="images/arrowR.jpg" alt=""></a></li>
+            <li> <a href="talentStrategy.html">人才战略<img src="images/arrowR.jpg" alt=""></a></li>
+            <li> <a href="financialBusiness.html">金融业务布局<img src="images/arrowR.jpg" alt=""></a></li>
+            <li> <a href="supplyChainFinance.html">供应链金融服务<img src="images/arrowR.jpg" alt=""></a></li>
+            <li> <a href="contactUs.html">联系我们<img src="images/arrowR.jpg" alt=""></a></li>
+        </ul>
+    </nav>
+    <main id="panel" class="panel">
+        <header>
+            <a href="index.html"><img class="logo" src="images/logo.png" alt=""></a>
+            <img class="menuBtn" src="images/menu.png" alt="">
+        </header>
+        <div class="flexslider" data-am-flexslider id="demo-slider-0">
+            <ul id="bannerList" class="slides">
+                <!-- <li>
+                    <a href="supplyChainFinance.html"><img src="images/banner1.jpg" /></a>
+                </li>
+                <li>
+                    <a href="financialBusiness.html"><img src="images/banner2.jpg" /></a>
+                </li> -->
+            </ul>
+        </div>
+
+
+        <div class="intoBee">
+            <a href="intoBee.html"><img src="images/img1.png" alt=""></a>
+            <h3>走进蜂向</h3>
+            <p>作为国内互联网银行与核心企业供应链金融（互联网+）建设的领导者。</p>
+        </div>
+        <ul class="indexList">
+            <h3 class="tit"><i class="icon"><img src="images/icon1.jpg" alt=""></i>蜂向资讯</h3>
+       	    <div class="zxmain">
+            <!-- <li class="clearfix">
+                <a href="informationDetail15.html">
+                    <img src="images/newsicon16.jpg" alt="">
+                    <div class="indexlistCont">
+                        <h3 class="conTit">蜂向科技喜获CMMI3级认证，研发管理能力更上一层楼</h3>
+                        <p class="time">2017-06-10</p>
+                    </div>
+                </a>
+            </li>
+            <li class="clearfix">
+                <a href="informationDetail14.html">
+                    <img src="images/newsicon15.jpg" alt="">
+                    <div class="indexlistCont">
+                        <h3 class="conTit">蜂向科技CEO 刘源一行应邀参加乌鲁木齐银行交易银行交流大会</h3>
+                        <p class="time">2017-06-07</p>
+                    </div>
+                </a>
+            </li>
+            <li class="clearfix">
+                <a href="informationDetail13.html">
+                    <img src="images/newsicon14.jpg" alt="">
+                    <div class="indexlistCont">
+                        <h3 class="conTit">天富信息公司举办“票e融产品上线推介会”</h3>
+                        <p class="time">2017-03-06</p>
+                    </div>
+                </a>
+            </li>
+            <li class="clearfix">
+                <a href="informationDetail12.html">
+                    <img src="images/newsicon13.jpg" alt="">
+                    <div class="indexlistCont">
+                        <h3 class="conTit">携手中交集团 蜂向科技开启建筑供应链金融新生态</h3>
+                        <p class="time">2017-02-27</p>
+                    </div>
+                </a>
+            </li> -->
+        </div>
+        </ul>
+        <p class="copy">京ICP备13067411号-2 Copyright © 2015-2017 蜂向科技</p>
+    </main>
+</body>
+
+<!-- Mirrored from www.fengunion.com/fengunion.mobile/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Dec 2017 03:03:05 GMT -->
+</html>

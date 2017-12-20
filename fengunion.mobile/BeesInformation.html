@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.fengunion.com/fengunion.mobile/BeesInformation.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Dec 2017 03:03:37 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <title>蜂向资讯</title>
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" name="viewport"/>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.8.0.min.js"></script>
+    <script src="js/slideout.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/config.js"></script>
+</head>
+<body>
+<input type="hidden" id="pageSize" value="5"/>
+<nav id="menu">
+    <ul class="list">
+        <li class="first"><a href="index.html">首页</a><img class="closeBtn" src="images/clocse.jpg" alt=""></li>
+        <li> <a href="intoBee.html">走进蜂向<img src="images/arrowR.jpg" alt=""></a></li>
+        <li class="current"> <a href="BeesInformation.html">蜂向资讯<img src="images/arrowR.jpg" alt=""></a></li>
+        <li> <a href="talentStrategy.html">人才战略<img src="images/arrowR.jpg" alt=""></a></li>
+        <li> <a href="financialBusiness.html">金融业务布局<img src="images/arrowR.jpg" alt=""></a></li>
+        <li> <a href="supplyChainFinance.html">供应链金融服务<img src="images/arrowR.jpg" alt=""></a></li>
+        <li> <a href="contactUs.html">联系我们<img src="images/arrowR.jpg" alt=""></a></li>
+    </ul>
+</nav>
+<main id="panel" class="panel">
+    <header>
+        <a href="index.html"><img class="logo" src="images/logo.png" alt=""></a>
+        <img class="menuBtn" src="images/menu.png" alt="">
+    </header>
+    <img src="images/img19.jpg" class="fengChainInfor" alt="">
+    <ul class="indexList showMoreNChildren" pagesize="6">
+        <!-- 加载新闻资讯列表 -->
+    </ul>
+    <div class="more showMorehandle"><a onclick="getNewsList(5);"><img src="images/news_more.png"/>查看更多资讯</a></div>
+	<!-- <script type="text/javascript">
+        //调用显示更多插件。参数是标准的 jquery 选择符 
+        $.showMore(".showMoreNChildren");
+    </script> -->
+    <div class="h20"></div>
+    <p class="copy">京ICP备13067411号-2 Copyright © 2015-2017 蜂向科技</p>
+</main>
+</body>
+
+<!-- Mirrored from www.fengunion.com/fengunion.mobile/BeesInformation.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Dec 2017 03:03:47 GMT -->
+</html>
+<script type="text/javascript" src="js/newsinfo/beesInformation.js"></script>

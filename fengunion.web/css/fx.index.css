@@ -1,0 +1,35 @@
+
+/*banner*/
+/*flexslider开始*/
+.flexslider{position:relative;height:662px;overflow:hidden;}
+.slides{position:relative;z-index:7;}
+.slides li{height:662px; text-align:center;}
+.slides li a img{width:1920px;position:absolute;left:50%;margin-left:-980px;}
+.flex-control-nav{position:absolute;bottom:30px;z-index:7;width:100%;text-align:center;}
+.flex-control-nav li{display:inline-block;width:78px;height:3px;margin:0 5px;*display:inline;zoom:1;}
+.flex-control-nav a{display:inline-block;width:78px;height:3px;line-height:40px;overflow:hidden;background:rgba(255, 255, 255, 0.5);cursor:pointer;}
+.flex-control-nav .flex-active{background:#CE1019;}
+.flex-direction-nav{position:absolute;z-index:3;width:100%;top:45%;}
+.flex-direction-nav li a{display:block;width:50px;height:50px;overflow:hidden;cursor:pointer;position:absolute;}
+
+
+.section{width:1200px;margin:35px auto;}
+.section .zx{float:left;width:580px;margin-right:40px;}
+.zx_top{width:100%;height:30px;position:relative;}
+.zx_top a{position:absolute;right:0;top:0;}
+.zxmain{width:100%;padding-top:20px;}
+.zxmain_top img{float:left;height:133px;}
+.zxmain_top .zxmain_right{float:right;width:330px;word-wrap:break-word;}
+.zxmain_top .zxmain_right a{display:block;position:relative;}
+.zxmain_top .zxmain_right h3{font-size:16px;color:#333;}
+.zxmain_top .zxmain_right a em{display:block;width:100%;text-align:right;position:absolute;bottom:-24px;font-size:12px;color:#999;font-weight:normal;}
+.zxmain_top .zxmain_right p{font-size:14px;color:#999;line-height:20px;margin-top:20px;}
+.zx_main{margin-top:25px;}
+.zx_main ul li a{display:block;margin-top:15px;}
+.zx_main ul li a i{display:block;float:left;width:7px;height:9px;background:url(../images/arr.png) no-repeat;margin-top:6px;margin-right:10px;}
+.zx_main ul li a p{float:left;font-size:16px;color:#505050;border-bottom:1px solid #fff}
+.zx_main ul li a em{float:right;font-size:14px;color:#999;}
+.section .fx{width:580px;float:left;}
+.fxmain{padding-top:20px;}
+.fxmain p{font-size:14px;color:#999;width:100%;word-wrap:break-word;margin:10px 0;line-height:20px;}
+.fxmain a{display:block;width:565px;height:40px;line-height:40px;background-color:#eee;text-align:right;font-size:16px;color:#999;padding-right:15px;}
