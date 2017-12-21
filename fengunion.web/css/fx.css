@@ -177,7 +177,7 @@
 .cooperativebank ul li.bankicon5{background-position:0 -225px;}
 
 /*联系我们*/
-.contactbanner{width:100%;height:600px;background:url(../images/map.jpg) center 0 no-repeat;}
+.contactbanner{width:100%;height:600px;background:url(../images/map.jpg) no-repeat;background-size:100%}
 .contact{width:100%;height:790px;background:url(../images/contactbg.jpg) center 0 no-repeat;}
 .contactsec{width:1200px;margin:0 auto;}
 .contactmain{width:890px;margin:0 auto;}

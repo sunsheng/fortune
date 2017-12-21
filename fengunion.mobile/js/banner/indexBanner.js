@@ -22,7 +22,7 @@ $(function(){
 			"addedByName": "运营01",
 			"addedTime": "2017-08-16 17:35:59",
 			"createtime": "2017-08-16 17:35:59",
-			"filepath": "/resources/website/banner/交易银行banner/Qyfjbanner.jpg",
+			"filepath": "./images/Qyfjbanner.jpg",
 			"id": 129,
 			"lastModifiedBy": 1,
 			"lastModifiedByName": "运营01",
@@ -43,7 +43,7 @@ $(function(){
 			"addedByName": "运营01",
 			"addedTime": "2017-08-16 17:36:40",
 			"createtime": "2017-08-16 17:36:40",
-			"filepath": "/resources/website/banner/供应链金融banner/oKOPbanner2.jpg",
+			"filepath": "./images/oKOPbanner2.jpg",
 			"id": 130,
 			"lastModifiedBy": 1,
 			"lastModifiedByName": "运营01",
@@ -65,11 +65,11 @@ $(function(){
 		if(res !=null){
 			for(i=0;i<res.length;i++){
 				if(i==0){
-					ulBanner +='<li ><a target="_blank" href="financialBusiness.html"><img src="'+managePath+"/webBanner/showBanner?filePath="+res[i].filepath+'" /></a></li>'
+					ulBanner +='<li ><a target="_blank" href="financialBusiness.html"><img src="'+res[i].filepath+'" /></a></li>'
 				}else if(i==1){
-					ulBanner +='<li ><a target="_blank" href="supplyChainFinance.html"><img src="'+managePath+"/webBanner/showBanner?filePath="+res[i].filepath+'" /></a></li>'
+					ulBanner +='<li ><a target="_blank" href="supplyChainFinance.html"><img src="'+res[i].filepath+'" /></a></li>'
 				}else{
-					ulBanner +='<li ><a target="_blank" ><img src="'+managePath+"/webBanner/showBanner?filePath="+res[i].filepath+'" /></a></li>'
+					ulBanner +='<li ><a target="_blank" ><img src="'+res[i].filepath+'" /></a></li>'
 					
 				}
 			}
