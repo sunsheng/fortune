@@ -1,0 +1,13 @@
+server.document-root = "."
+
+server.port = "8008"
+
+dir-listing.encoding        = "utf-8"
+server.dir-listing          = "enable"
+
+mimetype.assign = (
+  ".html" => "text/html",
+  ".txt" => "text/plain",
+  ".jpg" => "image/jpeg",
+  ".png" => "image/png"
+)

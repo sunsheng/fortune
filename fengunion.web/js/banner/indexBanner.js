@@ -106,9 +106,9 @@ function getNewsList(){
 				"lastModifiedTime": "2017-10-24 16:42:38",
 				"offlineTime": null,
 				"onlineTime": "2017-10-24 16:42:38",
-				"releasetime": "2017-08-01 00:00:00",
+				"releasetime": "2017-12-26 00:00:00",
 				"status": 1,
-				"title": "北京融盈科技有限公司新疆分公司正式成立",
+				"title": "北京融盈科技有限公司“融e汇“供应链金融服务平台开发上线",
 				"updatetime": null,
 				"valid": 1
 			}
